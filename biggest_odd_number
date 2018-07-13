@@ -1,0 +1,16 @@
+x = input(int("Enter a number: "))
+y = input(int("Enter a number: "))
+z = input(int("Enter a number: "))
+
+if x%2 == 0 and y%2 == 0 and z%2 == 0:
+	print("None of the numbers are odd.")
+elif:
+	if x%2 == 1 or y%2 == 1 or z%2 == 1:
+		if x > y and x > z:
+			print(x, " is the biggest odd number of the group.")
+		elif y > x and y > z:
+			print(y, " is the biggest odd number of the group.")
+		elif z > x and z > y:
+			print(z, " is the biggest odd number of the group.")
+		else:
+			print("There's no single biggest among these three numbers.")
